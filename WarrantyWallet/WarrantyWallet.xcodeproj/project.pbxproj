@@ -1,0 +1,1586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0035981FC5831100DC33EA /* WTNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0035971FC5831100DC33EA /* WTNotificationViewController.swift */; };
+		BD007AD81FAD923000ED5C11 /* ExtndWarrntCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD007AD61FAD923000ED5C11 /* ExtndWarrntCell.swift */; };
+		BD007AD91FAD923000ED5C11 /* ExtndWarrntCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD007AD71FAD923000ED5C11 /* ExtndWarrntCell.xib */; };
+		BD0344E1202D9572002EE3CB /* WtExpiredListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0344E0202D9570002EE3CB /* WtExpiredListController.swift */; };
+		BD0344E5202D95E5002EE3CB /* ExpiredCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0344E3202D95E5002EE3CB /* ExpiredCustomCell.swift */; };
+		BD0344E6202D95E5002EE3CB /* ExpiredCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0344E4202D95E5002EE3CB /* ExpiredCustomCell.xib */; };
+		BD0B0DAF1FC2D3BD007BD05D /* WTServiceLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B0DAE1FC2D3BD007BD05D /* WTServiceLogViewController.swift */; };
+		BD0B0DB21FC2D5BE007BD05D /* CustemServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0B0DB01FC2D5BE007BD05D /* CustemServiceCell.swift */; };
+		BD0B0DB31FC2D5BE007BD05D /* CustemServiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0B0DB11FC2D5BE007BD05D /* CustemServiceCell.xib */; };
+		BD0DC5F31F9F49BE004EE2BA /* RegisterDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0DC5F21F9F49BE004EE2BA /* RegisterDeviceViewController.swift */; };
+		BD29619E2004C19D002E783E /* WTRaiseVWController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29619D2004C19D002E783E /* WTRaiseVWController.swift */; };
+		BD2961A1200DC3F9002E783E /* CustemDocumentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29619F200DC3F9002E783E /* CustemDocumentCell.swift */; };
+		BD2961A2200DC3F9002E783E /* CustemDocumentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2961A0200DC3F9002E783E /* CustemDocumentCell.xib */; };
+		BD2961A5200E2EF2002E783E /* WTListDocumentFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2961A4200E2EF2002E783E /* WTListDocumentFile.swift */; };
+		BD2961AA20106214002E783E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD2961A920106214002E783E /* GoogleService-Info.plist */; };
+		BD296EEA1FA0B1AC00361D0B /* ModelEnterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD296EE91FA0B1AC00361D0B /* ModelEnterViewController.swift */; };
+		BD296EEC1FA0BE1600361D0B /* LocationTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD296EEB1FA0BE1600361D0B /* LocationTagViewController.swift */; };
+		BD296EEE1FA0C41E00361D0B /* ScanInvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD296EED1FA0C41E00361D0B /* ScanInvoiceViewController.swift */; };
+		BD2B63771FC6A13900AFEAE3 /* custemNotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B63751FC6A13900AFEAE3 /* custemNotificationCell.swift */; };
+		BD2B63781FC6A13900AFEAE3 /* custemNotificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2B63761FC6A13900AFEAE3 /* custemNotificationCell.xib */; };
+		BD2B637B1FC6A2F400AFEAE3 /* WTSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B637A1FC6A2F400AFEAE3 /* WTSettingViewController.swift */; };
+		BD2B63BC1FCB407300AFEAE3 /* CusteomMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B63BA1FCB407300AFEAE3 /* CusteomMenuCell.swift */; };
+		BD2B63BD1FCB407300AFEAE3 /* CusteomMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2B63BB1FCB407300AFEAE3 /* CusteomMenuCell.xib */; };
+		BD2B63BF1FCD2B7900AFEAE3 /* WTWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2B63BE1FCD2B7900AFEAE3 /* WTWebViewController.swift */; };
+		BD2D610F201912D800956DB8 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2D610D201912D700956DB8 /* iCarousel.m */; };
+		BD2D61112022E56300956DB8 /* SubApplianceCategListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2D61102022E56200956DB8 /* SubApplianceCategListViewController.swift */; };
+		BD2D61142022F58100956DB8 /* SubApplincCategryCustem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2D61122022F58100956DB8 /* SubApplincCategryCustem.swift */; };
+		BD2D61152022F58100956DB8 /* SubApplincCategryCustem.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2D61132022F58100956DB8 /* SubApplincCategryCustem.xib */; };
+		BD31C1831F84C3BC0067E3EA /* SignUpPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31C1821F84C3BC0067E3EA /* SignUpPage.swift */; };
+		BD31C1851F8508DB0067E3EA /* VerifyPhoneNomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31C1841F8508DB0067E3EA /* VerifyPhoneNomViewController.swift */; };
+		BD31C1871F850B580067E3EA /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31C1861F850B580067E3EA /* OTPViewController.swift */; };
+		BD33CDA220B6BCFB003021E7 /* ThankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33CDA120B6BCFB003021E7 /* ThankViewController.swift */; };
+		BD33CDA520B6CAAE003021E7 /* WalkThroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33CDA420B6CAAE003021E7 /* WalkThroughViewController.swift */; };
+		BD33CDA820B81833003021E7 /* WarrantyOrganizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD33CDA720B81833003021E7 /* WarrantyOrganizerViewController.swift */; };
+		BD37FE0F1F86076800464478 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37FE0E1F86076800464478 /* AboutViewController.swift */; };
+		BD37FE111F8616DC00464478 /* HelpSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37FE101F8616DC00464478 /* HelpSupportViewController.swift */; };
+		BD37FE141F864ED200464478 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD37FE131F864ED200464478 /* Constant.swift */; };
+		BD3E2B991FE3A89700CEEE32 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3E2B971FE3A89700CEEE32 /* MBProgressHUD.m */; };
+		BD3E2B9C1FE3F0AE00CEEE32 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3E2B9B1FE3F0AE00CEEE32 /* EditProfileView.swift */; };
+		BD475E681F835C1D00C1B078 /* TitilliumWeb-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E5D1F835C1D00C1B078 /* TitilliumWeb-Black.ttf */; };
+		BD475E691F835C1D00C1B078 /* TitilliumWeb-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E5E1F835C1D00C1B078 /* TitilliumWeb-Bold.ttf */; };
+		BD475E6A1F835C1D00C1B078 /* TitilliumWeb-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E5F1F835C1D00C1B078 /* TitilliumWeb-BoldItalic.ttf */; };
+		BD475E6B1F835C1D00C1B078 /* TitilliumWeb-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E601F835C1D00C1B078 /* TitilliumWeb-ExtraLight.ttf */; };
+		BD475E6C1F835C1D00C1B078 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E611F835C1D00C1B078 /* TitilliumWeb-ExtraLightItalic.ttf */; };
+		BD475E6D1F835C1D00C1B078 /* TitilliumWeb-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E621F835C1D00C1B078 /* TitilliumWeb-Italic.ttf */; };
+		BD475E6E1F835C1D00C1B078 /* TitilliumWeb-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E631F835C1D00C1B078 /* TitilliumWeb-Light.ttf */; };
+		BD475E6F1F835C1D00C1B078 /* TitilliumWeb-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E641F835C1D00C1B078 /* TitilliumWeb-LightItalic.ttf */; };
+		BD475E701F835C1D00C1B078 /* TitilliumWeb-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E651F835C1D00C1B078 /* TitilliumWeb-Regular.ttf */; };
+		BD475E711F835C1D00C1B078 /* TitilliumWeb-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E661F835C1D00C1B078 /* TitilliumWeb-SemiBold.ttf */; };
+		BD475E721F835C1D00C1B078 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD475E671F835C1D00C1B078 /* TitilliumWeb-SemiBoldItalic.ttf */; };
+		BD4C3C1920BEC5AF0053B4C4 /* StepIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C3C1820BEC5AE0053B4C4 /* StepIndicatorView.swift */; };
+		BD4C3C1C20BEC5F20053B4C4 /* LineLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C3C1A20BEC5F20053B4C4 /* LineLayer.swift */; };
+		BD4C3C1D20BEC5F20053B4C4 /* AnnularLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C3C1B20BEC5F20053B4C4 /* AnnularLayer.swift */; };
+		BD4C3C2020BFC34E0053B4C4 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD4C3C1F20BFC34E0053B4C4 /* StatusViewController.swift */; };
+		BD5AC5411FEE2C3700F22460 /* WTHelpListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5AC5401FEE2C3700F22460 /* WTHelpListViewController.swift */; };
+		BD5AC5441FEE2E9100F22460 /* CustomFeedbackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5AC5421FEE2E9100F22460 /* CustomFeedbackList.swift */; };
+		BD5AC5451FEE2E9100F22460 /* CustomFeedbackList.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD5AC5431FEE2E9100F22460 /* CustomFeedbackList.xib */; };
+		BD68A5402091E1F300E0D29B /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A53F2091E1F100E0D29B /* CustomSlider.swift */; };
+		BD68A54220970FE800E0D29B /* WTVerifcnPandingVWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A54120970FE700E0D29B /* WTVerifcnPandingVWViewController.swift */; };
+		BD68A54520971DF800E0D29B /* CustomCellVerificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A54320971DF800E0D29B /* CustomCellVerificationTableViewCell.swift */; };
+		BD68A54620971DF800E0D29B /* CustomCellVerificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD68A54420971DF800E0D29B /* CustomCellVerificationTableViewCell.xib */; };
+		BD68A54B2098E87A00E0D29B /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A5482098E87900E0D29B /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		BD68A54C2098E87A00E0D29B /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A5492098E87900E0D29B /* UITextField+fixCaretPosition.swift */; };
+		BD68A54D2098E87A00E0D29B /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD68A54A2098E87A00E0D29B /* SkyFloatingLabelTextField.swift */; };
+		BD7D5215209D7C3D00943FEF /* UPDateProfileField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7D5214209D7C3D00943FEF /* UPDateProfileField.swift */; };
+		BD8012E120DA563200F79A25 /* TermsPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8012E020DA563200F79A25 /* TermsPolicyViewController.swift */; };
+		BD9934522024DDB1009DA9CA /* WtRenewTicketController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9934512024DDB1009DA9CA /* WtRenewTicketController.swift */; };
+		BD9934552026F4A3009DA9CA /* ApplianceEditDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9934542026F4A3009DA9CA /* ApplianceEditDetailsController.swift */; };
+		BD9DA36920134968001CC438 /* WtApplianceCategListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9DA36820134968001CC438 /* WtApplianceCategListViewController.swift */; };
+		BD9DA36D20135F59001CC438 /* WTApplincCategryCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9DA36B20135F59001CC438 /* WTApplincCategryCustom.swift */; };
+		BD9DA36E20135F59001CC438 /* WTApplincCategryCustom.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD9DA36C20135F59001CC438 /* WTApplincCategryCustom.xib */; };
+		BDA6B4861FB57BDB00542D9E /* BottomViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6B4841FB57BDB00542D9E /* BottomViewViewController.swift */; };
+		BDA6B4871FB57BDB00542D9E /* BottomViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA6B4851FB57BDB00542D9E /* BottomViewViewController.xib */; };
+		BDABEAFC1FECD74E00AB4B66 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDABEAFB1FECD74E00AB4B66 /* SplashViewController.swift */; };
+		BDB29C691FF22CD600CEDA9F /* WTUploadFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB29C681FF22CD600CEDA9F /* WTUploadFileViewController.swift */; };
+		BDB29C6C1FF7AFD300CEDA9F /* TTGSnackbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB29C6B1FF7AFD100CEDA9F /* TTGSnackbar.swift */; };
+		BDD2C9F51F7A227C0084F089 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2C9F41F7A227C0084F089 /* AppDelegate.swift */; };
+		BDD2C9F71F7A227C0084F089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2C9F61F7A227C0084F089 /* ViewController.swift */; };
+		BDD2C9FA1F7A227C0084F089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD2C9F81F7A227C0084F089 /* Main.storyboard */; };
+		BDD2C9FD1F7A227C0084F089 /* WarrantyWallet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDD2C9FB1F7A227C0084F089 /* WarrantyWallet.xcdatamodeld */; };
+		BDD2C9FF1F7A227C0084F089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD2C9FE1F7A227C0084F089 /* Assets.xcassets */; };
+		BDD2CA021F7A227C0084F089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD2CA001F7A227C0084F089 /* LaunchScreen.storyboard */; };
+		BDD2CA0D1F7A227C0084F089 /* WarrantyWalletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2CA0C1F7A227C0084F089 /* WarrantyWalletTests.swift */; };
+		BDD2CA181F7A227D0084F089 /* WarrantyWalletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD2CA171F7A227D0084F089 /* WarrantyWalletUITests.swift */; };
+		BDEC666F1FFDF75100D252B7 /* collectionVWCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC666E1FFDF75100D252B7 /* collectionVWCell.swift */; };
+		BDEC66761FFF877B00D252B7 /* CstmEditDaySlidrCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEC66741FFF877B00D252B7 /* CstmEditDaySlidrCell.swift */; };
+		BDEC66771FFF877B00D252B7 /* CstmEditDaySlidrCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEC66751FFF877B00D252B7 /* CstmEditDaySlidrCell.xib */; };
+		BDF2DB621F8F98F7002E95EA /* EditeGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF2DB611F8F98F7002E95EA /* EditeGroupViewController.swift */; };
+		BDF39BDD1FB1744E00802DD5 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF39BD51FB1744E00802DD5 /* MMDrawerBarButtonItem.m */; };
+		BDF39BDE1FB1744E00802DD5 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF39BD81FB1744E00802DD5 /* MMDrawerController.m */; };
+		BDF39BDF1FB1744E00802DD5 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF39BDA1FB1744E00802DD5 /* MMDrawerVisualState.m */; };
+		BDF39BE01FB1744E00802DD5 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF39BDC1FB1744E00802DD5 /* UIViewController+MMDrawerController.m */; };
+		BDF39BE21FB17E3500802DD5 /* WTMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF39BE11FB17E3500802DD5 /* WTMenuViewController.swift */; };
+		BDF52FA81FB0795A0097AC0D /* ApplianceEditDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF52FA71FB0795A0097AC0D /* ApplianceEditDetailsViewController.swift */; };
+		BDF6AFBF1FB3244900F47383 /* WTRegisteredAMCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6AFBE1FB3244900F47383 /* WTRegisteredAMCViewController.swift */; };
+		BDF6AFC21FB324EC00F47383 /* CstmRegsAmcCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6AFC01FB324EC00F47383 /* CstmRegsAmcCell.swift */; };
+		BDF6AFC31FB324EC00F47383 /* CstmRegsAmcCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF6AFC11FB324EC00F47383 /* CstmRegsAmcCell.xib */; };
+		BDF7168120319FC900F9541E /* ExpiringVWController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7168020319FC900F9541E /* ExpiringVWController.swift */; };
+		BDF716842032BEB600F9541E /* AMCAggrementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF716832032BEB600F9541E /* AMCAggrementController.swift */; };
+		BDF716872035919600F9541E /* RegAMCDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF716862035919400F9541E /* RegAMCDetailsView.swift */; };
+		BDF7168A203AB77800F9541E /* AMCEditFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF71689203AB77800F9541E /* AMCEditFieldView.swift */; };
+		BDF7C2C31F909852007762DB /* RegisteredAppliancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7C2C21F909852007762DB /* RegisteredAppliancesViewController.swift */; };
+		BDF7C2CA1F90AF97007762DB /* AppliancesCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7C2C81F90AF97007762DB /* AppliancesCustomTableViewCell.swift */; };
+		BDF7C2CB1F90AF97007762DB /* AppliancesCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF7C2C91F90AF97007762DB /* AppliancesCustomTableViewCell.xib */; };
+		BDF7C2CD1F90B421007762DB /* AppliancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7C2CC1F90B421007762DB /* AppliancesViewController.swift */; };
+		BDF7C2CF1F90CD6F007762DB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7C2CE1F90CD6F007762DB /* String.swift */; };
+		BDF80D911FA1A809006CBC2A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = BDF80D8D1FA1A809006CBC2A /* .gitkeep */; };
+		BDF80D921FA1A809006CBC2A /* SwiftCountryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80D8E1FA1A809006CBC2A /* SwiftCountryPicker.swift */; };
+		BDF80D931FA1A809006CBC2A /* SwiftCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF80D8F1FA1A809006CBC2A /* SwiftCountryView.swift */; };
+		BDF80D941FA1A809006CBC2A /* SwiftCountryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF80D901FA1A809006CBC2A /* SwiftCountryView.xib */; };
+		BDF81E401F8DF56300706AF3 /* GroupSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF81E3F1F8DF56300706AF3 /* GroupSelectViewController.swift */; };
+		BDF9DF691FD172B600245A11 /* RegisteredInvoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9DF681FD172B600245A11 /* RegisteredInvoicesViewController.swift */; };
+		BDF9DF6C1FD29BCB00245A11 /* RegistrdInvoiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF9DF6A1FD29BCB00245A11 /* RegistrdInvoiceCell.swift */; };
+		BDF9DF6D1FD29BCB00245A11 /* RegistrdInvoiceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDF9DF6B1FD29BCB00245A11 /* RegistrdInvoiceCell.xib */; };
+		BDFA2C1D1FB42D5600E3700C /* WTExtndWarntyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFA2C1C1FB42D5600E3700C /* WTExtndWarntyViewController.swift */; };
+		BDFA2C1F1FB45FB400E3700C /* WTRequestStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFA2C1E1FB45FB400E3700C /* WTRequestStatusViewController.swift */; };
+		BDFA2C221FB4674600E3700C /* CustmRequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFA2C201FB4674600E3700C /* CustmRequestCell.swift */; };
+		BDFA2C231FB4674600E3700C /* CustmRequestCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFA2C211FB4674600E3700C /* CustmRequestCell.xib */; };
+		BDFBB7661FA3175F006249D5 /* InvoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBB7651FA3175F006249D5 /* InvoiceViewController.swift */; };
+		BDFBBF671F91DCA9003F2214 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBBF661F91DCA9003F2214 /* SlideMenuController.swift */; };
+		BDFBBF701F94AAA2003F2214 /* SliderBaseViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBBF6F1F94AAA2003F2214 /* SliderBaseViewViewController.swift */; };
+		BDFBBF721F94AF55003F2214 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBBF711F94AF55003F2214 /* TopViewController.swift */; };
+		BDFBBF741F94DA05003F2214 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFBBF731F94DA05003F2214 /* TopViewController.xib */; };
+		BDFBF9041FAC89D900C06E03 /* DashboardCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBF9021FAC89D900C06E03 /* DashboardCustomCell.swift */; };
+		BDFBF9051FAC89D900C06E03 /* DashboardCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFBF9031FAC89D900C06E03 /* DashboardCustomCell.xib */; };
+		BDFBF9071FAC914700C06E03 /* DashBrdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFBF9061FAC914700C06E03 /* DashBrdViewController.swift */; };
+		BDFD72721FBD9C9300AC17D3 /* USEOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD72711FBD9C9300AC17D3 /* USEOTPViewController.swift */; };
+		BDFD72741FBE9FFC00AC17D3 /* navViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD72731FBE9FFC00AC17D3 /* navViewController.swift */; };
+		BDFD72761FBEF3AD00AC17D3 /* WTCheckStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFD72751FBEF3AD00AC17D3 /* WTCheckStatusViewController.swift */; };
+		BDFD727A1FC04A1100AC17D3 /* KIImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFD72791FC04A1100AC17D3 /* KIImagePager.m */; };
+		C51D2636C7D6595F024B21A3 /* Pods_WarrantyWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5716E3A79CF6A2D88EEEF0DB /* Pods_WarrantyWallet.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		E02D1A4BC50105E480443192 /* Pods_WarrantyWalletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD567DE0BB65A79A79DBBF22 /* Pods_WarrantyWalletTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDD2CA091F7A227C0084F089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD2C9E91F7A227C0084F089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD2C9F01F7A227C0084F089;
+			remoteInfo = WarrantyWallet;
+		};
+		BDD2CA141F7A227C0084F089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD2C9E91F7A227C0084F089 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD2C9F01F7A227C0084F089;
+			remoteInfo = WarrantyWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D1C625CE78972970D739B6 /* Pods-WarrantyWalletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarrantyWalletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarrantyWalletTests/Pods-WarrantyWalletTests.release.xcconfig"; sourceTree = "<group>"; };
+		5716E3A79CF6A2D88EEEF0DB /* Pods_WarrantyWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarrantyWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6725CF1F716829C20E48FFA4 /* Pods_WarrantyWalletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarrantyWalletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		783B97C9C19066E6E675B04F /* Pods-WarrantyWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarrantyWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarrantyWallet/Pods-WarrantyWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		BD0035971FC5831100DC33EA /* WTNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTNotificationViewController.swift; sourceTree = "<group>"; };
+		BD007AD61FAD923000ED5C11 /* ExtndWarrntCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtndWarrntCell.swift; sourceTree = "<group>"; };
+		BD007AD71FAD923000ED5C11 /* ExtndWarrntCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtndWarrntCell.xib; sourceTree = "<group>"; };
+		BD0344E0202D9570002EE3CB /* WtExpiredListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WtExpiredListController.swift; sourceTree = "<group>"; };
+		BD0344E3202D95E5002EE3CB /* ExpiredCustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiredCustomCell.swift; sourceTree = "<group>"; };
+		BD0344E4202D95E5002EE3CB /* ExpiredCustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpiredCustomCell.xib; sourceTree = "<group>"; };
+		BD0B0DAE1FC2D3BD007BD05D /* WTServiceLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTServiceLogViewController.swift; sourceTree = "<group>"; };
+		BD0B0DB01FC2D5BE007BD05D /* CustemServiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustemServiceCell.swift; sourceTree = "<group>"; };
+		BD0B0DB11FC2D5BE007BD05D /* CustemServiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustemServiceCell.xib; sourceTree = "<group>"; };
+		BD0DC5F21F9F49BE004EE2BA /* RegisterDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterDeviceViewController.swift; sourceTree = "<group>"; };
+		BD18FC3B20CEA28C00A7BCB8 /* WarrantyWallet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WarrantyWallet.entitlements; sourceTree = "<group>"; };
+		BD29619D2004C19D002E783E /* WTRaiseVWController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTRaiseVWController.swift; sourceTree = "<group>"; };
+		BD29619F200DC3F9002E783E /* CustemDocumentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustemDocumentCell.swift; sourceTree = "<group>"; };
+		BD2961A0200DC3F9002E783E /* CustemDocumentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustemDocumentCell.xib; sourceTree = "<group>"; };
+		BD2961A4200E2EF2002E783E /* WTListDocumentFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTListDocumentFile.swift; sourceTree = "<group>"; };
+		BD2961A920106214002E783E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD296EE91FA0B1AC00361D0B /* ModelEnterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelEnterViewController.swift; sourceTree = "<group>"; };
+		BD296EEB1FA0BE1600361D0B /* LocationTagViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTagViewController.swift; sourceTree = "<group>"; };
+		BD296EED1FA0C41E00361D0B /* ScanInvoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanInvoiceViewController.swift; sourceTree = "<group>"; };
+		BD2B63751FC6A13900AFEAE3 /* custemNotificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = custemNotificationCell.swift; sourceTree = "<group>"; };
+		BD2B63761FC6A13900AFEAE3 /* custemNotificationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = custemNotificationCell.xib; sourceTree = "<group>"; };
+		BD2B637A1FC6A2F400AFEAE3 /* WTSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTSettingViewController.swift; sourceTree = "<group>"; };
+		BD2B63BA1FCB407300AFEAE3 /* CusteomMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CusteomMenuCell.swift; sourceTree = "<group>"; };
+		BD2B63BB1FCB407300AFEAE3 /* CusteomMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CusteomMenuCell.xib; sourceTree = "<group>"; };
+		BD2B63BE1FCD2B7900AFEAE3 /* WTWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTWebViewController.swift; sourceTree = "<group>"; };
+		BD2D610D201912D700956DB8 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		BD2D610E201912D700956DB8 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		BD2D61102022E56200956DB8 /* SubApplianceCategListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubApplianceCategListViewController.swift; sourceTree = "<group>"; };
+		BD2D61122022F58100956DB8 /* SubApplincCategryCustem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubApplincCategryCustem.swift; sourceTree = "<group>"; };
+		BD2D61132022F58100956DB8 /* SubApplincCategryCustem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubApplincCategryCustem.xib; sourceTree = "<group>"; };
+		BD31C1821F84C3BC0067E3EA /* SignUpPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpPage.swift; sourceTree = "<group>"; };
+		BD31C1841F8508DB0067E3EA /* VerifyPhoneNomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyPhoneNomViewController.swift; sourceTree = "<group>"; };
+		BD31C1861F850B580067E3EA /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		BD33CDA120B6BCFB003021E7 /* ThankViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankViewController.swift; sourceTree = "<group>"; };
+		BD33CDA420B6CAAE003021E7 /* WalkThroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkThroughViewController.swift; sourceTree = "<group>"; };
+		BD33CDA720B81833003021E7 /* WarrantyOrganizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyOrganizerViewController.swift; sourceTree = "<group>"; };
+		BD37FE0E1F86076800464478 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		BD37FE101F8616DC00464478 /* HelpSupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpSupportViewController.swift; sourceTree = "<group>"; };
+		BD37FE131F864ED200464478 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BD3E2B971FE3A89700CEEE32 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		BD3E2B981FE3A89700CEEE32 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		BD3E2B9B1FE3F0AE00CEEE32 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		BD475E5D1F835C1D00C1B078 /* TitilliumWeb-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Black.ttf"; sourceTree = "<group>"; };
+		BD475E5E1F835C1D00C1B078 /* TitilliumWeb-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Bold.ttf"; sourceTree = "<group>"; };
+		BD475E5F1F835C1D00C1B078 /* TitilliumWeb-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BD475E601F835C1D00C1B078 /* TitilliumWeb-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLight.ttf"; sourceTree = "<group>"; };
+		BD475E611F835C1D00C1B078 /* TitilliumWeb-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		BD475E621F835C1D00C1B078 /* TitilliumWeb-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Italic.ttf"; sourceTree = "<group>"; };
+		BD475E631F835C1D00C1B078 /* TitilliumWeb-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Light.ttf"; sourceTree = "<group>"; };
+		BD475E641F835C1D00C1B078 /* TitilliumWeb-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-LightItalic.ttf"; sourceTree = "<group>"; };
+		BD475E651F835C1D00C1B078 /* TitilliumWeb-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-Regular.ttf"; sourceTree = "<group>"; };
+		BD475E661F835C1D00C1B078 /* TitilliumWeb-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBold.ttf"; sourceTree = "<group>"; };
+		BD475E671F835C1D00C1B078 /* TitilliumWeb-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitilliumWeb-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		BD4C3C1820BEC5AE0053B4C4 /* StepIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepIndicatorView.swift; sourceTree = "<group>"; };
+		BD4C3C1A20BEC5F20053B4C4 /* LineLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineLayer.swift; sourceTree = "<group>"; };
+		BD4C3C1B20BEC5F20053B4C4 /* AnnularLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnularLayer.swift; sourceTree = "<group>"; };
+		BD4C3C1F20BFC34E0053B4C4 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		BD567DE0BB65A79A79DBBF22 /* Pods_WarrantyWalletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WarrantyWalletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5AC5401FEE2C3700F22460 /* WTHelpListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTHelpListViewController.swift; sourceTree = "<group>"; };
+		BD5AC5421FEE2E9100F22460 /* CustomFeedbackList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFeedbackList.swift; sourceTree = "<group>"; };
+		BD5AC5431FEE2E9100F22460 /* CustomFeedbackList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomFeedbackList.xib; sourceTree = "<group>"; };
+		BD68A53F2091E1F100E0D29B /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		BD68A54120970FE700E0D29B /* WTVerifcnPandingVWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTVerifcnPandingVWViewController.swift; sourceTree = "<group>"; };
+		BD68A54320971DF800E0D29B /* CustomCellVerificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellVerificationTableViewCell.swift; sourceTree = "<group>"; };
+		BD68A54420971DF800E0D29B /* CustomCellVerificationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCellVerificationTableViewCell.xib; sourceTree = "<group>"; };
+		BD68A5482098E87900E0D29B /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		BD68A5492098E87900E0D29B /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		BD68A54A2098E87A00E0D29B /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		BD7D5214209D7C3D00943FEF /* UPDateProfileField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UPDateProfileField.swift; sourceTree = "<group>"; };
+		BD8012E020DA563200F79A25 /* TermsPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsPolicyViewController.swift; sourceTree = "<group>"; };
+		BD9934512024DDB1009DA9CA /* WtRenewTicketController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WtRenewTicketController.swift; sourceTree = "<group>"; };
+		BD9934542026F4A3009DA9CA /* ApplianceEditDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplianceEditDetailsController.swift; sourceTree = "<group>"; };
+		BD9DA36820134968001CC438 /* WtApplianceCategListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WtApplianceCategListViewController.swift; sourceTree = "<group>"; };
+		BD9DA36B20135F59001CC438 /* WTApplincCategryCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTApplincCategryCustom.swift; sourceTree = "<group>"; };
+		BD9DA36C20135F59001CC438 /* WTApplincCategryCustom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WTApplincCategryCustom.xib; sourceTree = "<group>"; };
+		BDA6B4841FB57BDB00542D9E /* BottomViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomViewViewController.swift; sourceTree = "<group>"; };
+		BDA6B4851FB57BDB00542D9E /* BottomViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomViewViewController.xib; sourceTree = "<group>"; };
+		BDABEAFB1FECD74E00AB4B66 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		BDB29C681FF22CD600CEDA9F /* WTUploadFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTUploadFileViewController.swift; sourceTree = "<group>"; };
+		BDB29C6B1FF7AFD100CEDA9F /* TTGSnackbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTGSnackbar.swift; sourceTree = "<group>"; };
+		BDD2C9F11F7A227C0084F089 /* WarrantyWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarrantyWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD2C9F41F7A227C0084F089 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDD2C9F61F7A227C0084F089 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDD2C9F91F7A227C0084F089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDD2C9FC1F7A227C0084F089 /* WarrantyWallet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WarrantyWallet.xcdatamodel; sourceTree = "<group>"; };
+		BDD2C9FE1F7A227C0084F089 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDD2CA011F7A227C0084F089 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDD2CA031F7A227C0084F089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD2CA081F7A227C0084F089 /* WarrantyWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarrantyWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD2CA0C1F7A227C0084F089 /* WarrantyWalletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyWalletTests.swift; sourceTree = "<group>"; };
+		BDD2CA0E1F7A227C0084F089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD2CA131F7A227C0084F089 /* WarrantyWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarrantyWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD2CA171F7A227D0084F089 /* WarrantyWalletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarrantyWalletUITests.swift; sourceTree = "<group>"; };
+		BDD2CA191F7A227D0084F089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEC666E1FFDF75100D252B7 /* collectionVWCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionVWCell.swift; sourceTree = "<group>"; };
+		BDEC66741FFF877B00D252B7 /* CstmEditDaySlidrCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CstmEditDaySlidrCell.swift; sourceTree = "<group>"; };
+		BDEC66751FFF877B00D252B7 /* CstmEditDaySlidrCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CstmEditDaySlidrCell.xib; sourceTree = "<group>"; };
+		BDF2DB611F8F98F7002E95EA /* EditeGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditeGroupViewController.swift; sourceTree = "<group>"; };
+		BDF39BD41FB1744E00802DD5 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		BDF39BD51FB1744E00802DD5 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		BDF39BD61FB1744E00802DD5 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		BDF39BD71FB1744E00802DD5 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		BDF39BD81FB1744E00802DD5 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		BDF39BD91FB1744E00802DD5 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		BDF39BDA1FB1744E00802DD5 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		BDF39BDB1FB1744E00802DD5 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		BDF39BDC1FB1744E00802DD5 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		BDF39BE11FB17E3500802DD5 /* WTMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTMenuViewController.swift; sourceTree = "<group>"; };
+		BDF52FA71FB0795A0097AC0D /* ApplianceEditDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplianceEditDetailsViewController.swift; sourceTree = "<group>"; };
+		BDF52FA91FB090320097AC0D /* Warranty-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Warranty-Bridging-Header.h"; sourceTree = "<group>"; };
+		BDF6AFBE1FB3244900F47383 /* WTRegisteredAMCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTRegisteredAMCViewController.swift; sourceTree = "<group>"; };
+		BDF6AFC01FB324EC00F47383 /* CstmRegsAmcCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CstmRegsAmcCell.swift; sourceTree = "<group>"; };
+		BDF6AFC11FB324EC00F47383 /* CstmRegsAmcCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CstmRegsAmcCell.xib; sourceTree = "<group>"; };
+		BDF7168020319FC900F9541E /* ExpiringVWController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiringVWController.swift; sourceTree = "<group>"; };
+		BDF716832032BEB600F9541E /* AMCAggrementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMCAggrementController.swift; sourceTree = "<group>"; };
+		BDF716862035919400F9541E /* RegAMCDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegAMCDetailsView.swift; sourceTree = "<group>"; };
+		BDF71689203AB77800F9541E /* AMCEditFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMCEditFieldView.swift; sourceTree = "<group>"; };
+		BDF7C2C21F909852007762DB /* RegisteredAppliancesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredAppliancesViewController.swift; sourceTree = "<group>"; };
+		BDF7C2C81F90AF97007762DB /* AppliancesCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppliancesCustomTableViewCell.swift; sourceTree = "<group>"; };
+		BDF7C2C91F90AF97007762DB /* AppliancesCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppliancesCustomTableViewCell.xib; sourceTree = "<group>"; };
+		BDF7C2CC1F90B421007762DB /* AppliancesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppliancesViewController.swift; sourceTree = "<group>"; };
+		BDF7C2CE1F90CD6F007762DB /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BDF80D8D1FA1A809006CBC2A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		BDF80D8E1FA1A809006CBC2A /* SwiftCountryPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCountryPicker.swift; sourceTree = "<group>"; };
+		BDF80D8F1FA1A809006CBC2A /* SwiftCountryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCountryView.swift; sourceTree = "<group>"; };
+		BDF80D901FA1A809006CBC2A /* SwiftCountryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwiftCountryView.xib; sourceTree = "<group>"; };
+		BDF81E3F1F8DF56300706AF3 /* GroupSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupSelectViewController.swift; sourceTree = "<group>"; };
+		BDF9DF681FD172B600245A11 /* RegisteredInvoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredInvoicesViewController.swift; sourceTree = "<group>"; };
+		BDF9DF6A1FD29BCB00245A11 /* RegistrdInvoiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrdInvoiceCell.swift; sourceTree = "<group>"; };
+		BDF9DF6B1FD29BCB00245A11 /* RegistrdInvoiceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrdInvoiceCell.xib; sourceTree = "<group>"; };
+		BDFA2C1C1FB42D5600E3700C /* WTExtndWarntyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTExtndWarntyViewController.swift; sourceTree = "<group>"; };
+		BDFA2C1E1FB45FB400E3700C /* WTRequestStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTRequestStatusViewController.swift; sourceTree = "<group>"; };
+		BDFA2C201FB4674600E3700C /* CustmRequestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustmRequestCell.swift; sourceTree = "<group>"; };
+		BDFA2C211FB4674600E3700C /* CustmRequestCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustmRequestCell.xib; sourceTree = "<group>"; };
+		BDFBB7651FA3175F006249D5 /* InvoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceViewController.swift; sourceTree = "<group>"; };
+		BDFBBF661F91DCA9003F2214 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		BDFBBF6F1F94AAA2003F2214 /* SliderBaseViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderBaseViewViewController.swift; sourceTree = "<group>"; };
+		BDFBBF711F94AF55003F2214 /* TopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		BDFBBF731F94DA05003F2214 /* TopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		BDFBF9021FAC89D900C06E03 /* DashboardCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCustomCell.swift; sourceTree = "<group>"; };
+		BDFBF9031FAC89D900C06E03 /* DashboardCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardCustomCell.xib; sourceTree = "<group>"; };
+		BDFBF9061FAC914700C06E03 /* DashBrdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBrdViewController.swift; sourceTree = "<group>"; };
+		BDFD72711FBD9C9300AC17D3 /* USEOTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = USEOTPViewController.swift; sourceTree = "<group>"; };
+		BDFD72731FBE9FFC00AC17D3 /* navViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = navViewController.swift; sourceTree = "<group>"; };
+		BDFD72751FBEF3AD00AC17D3 /* WTCheckStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTCheckStatusViewController.swift; sourceTree = "<group>"; };
+		BDFD72781FC04A1100AC17D3 /* KIImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImagePager.h; sourceTree = "<group>"; };
+		BDFD72791FC04A1100AC17D3 /* KIImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIImagePager.m; sourceTree = "<group>"; };
+		C135B182D8B73B414DF31E9B /* Pods-WarrantyWalletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarrantyWalletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WarrantyWalletTests/Pods-WarrantyWalletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA9CD9C6165D17399F5665DF /* Pods-WarrantyWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WarrantyWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-WarrantyWallet/Pods-WarrantyWallet.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDD2C9EE1F7A227C0084F089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C51D2636C7D6595F024B21A3 /* Pods_WarrantyWallet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD2CA051F7A227C0084F089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02D1A4BC50105E480443192 /* Pods_WarrantyWalletTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD2CA101F7A227C0084F089 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A2EF875D1CA905EA3681C76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5716E3A79CF6A2D88EEEF0DB /* Pods_WarrantyWallet.framework */,
+				BD567DE0BB65A79A79DBBF22 /* Pods_WarrantyWalletTests.framework */,
+				6725CF1F716829C20E48FFA4 /* Pods_WarrantyWalletUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0035961FC582F500DC33EA /* NotificationWT */ = {
+			isa = PBXGroup;
+			children = (
+				BD0035971FC5831100DC33EA /* WTNotificationViewController.swift */,
+			);
+			path = NotificationWT;
+			sourceTree = "<group>";
+		};
+		BD0344DF202D951E002EE3CB /* VWExpiredLIst */ = {
+			isa = PBXGroup;
+			children = (
+				BD0344E0202D9570002EE3CB /* WtExpiredListController.swift */,
+			);
+			path = VWExpiredLIst;
+			sourceTree = "<group>";
+		};
+		BD0344E2202D95C3002EE3CB /* ExpiredListCell */ = {
+			isa = PBXGroup;
+			children = (
+				BD0344E3202D95E5002EE3CB /* ExpiredCustomCell.swift */,
+				BD0344E4202D95E5002EE3CB /* ExpiredCustomCell.xib */,
+			);
+			path = ExpiredListCell;
+			sourceTree = "<group>";
+		};
+		BD29619C2004C174002E783E /* WTRaiseVW */ = {
+			isa = PBXGroup;
+			children = (
+				BD29619D2004C19D002E783E /* WTRaiseVWController.swift */,
+			);
+			path = WTRaiseVW;
+			sourceTree = "<group>";
+		};
+		BD2961A3200E2ED0002E783E /* WTListDocumentFile */ = {
+			isa = PBXGroup;
+			children = (
+				BD2961A4200E2EF2002E783E /* WTListDocumentFile.swift */,
+			);
+			path = WTListDocumentFile;
+			sourceTree = "<group>";
+		};
+		BD2961A6200FCA76002E783E /* GooglePlist */ = {
+			isa = PBXGroup;
+			children = (
+				BD2961A920106214002E783E /* GoogleService-Info.plist */,
+			);
+			path = GooglePlist;
+			sourceTree = "<group>";
+		};
+		BD2B63791FC6A2DA00AFEAE3 /* WTSettingVW */ = {
+			isa = PBXGroup;
+			children = (
+				BD2B637A1FC6A2F400AFEAE3 /* WTSettingViewController.swift */,
+			);
+			path = WTSettingVW;
+			sourceTree = "<group>";
+		};
+		BD2D610C201912AF00956DB8 /* SlideShow */ = {
+			isa = PBXGroup;
+			children = (
+				BD2D610E201912D700956DB8 /* iCarousel.h */,
+				BD2D610D201912D700956DB8 /* iCarousel.m */,
+			);
+			path = SlideShow;
+			sourceTree = "<group>";
+		};
+		BD33CDA020B6BCD3003021E7 /* ThanksScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BD33CDA120B6BCFB003021E7 /* ThankViewController.swift */,
+			);
+			path = ThanksScreen;
+			sourceTree = "<group>";
+		};
+		BD33CDA320B6CA9C003021E7 /* WalkThroughScreen */ = {
+			isa = PBXGroup;
+			children = (
+				BD33CDA420B6CAAE003021E7 /* WalkThroughViewController.swift */,
+			);
+			path = WalkThroughScreen;
+			sourceTree = "<group>";
+		};
+		BD33CDA620B81819003021E7 /* WarrantyOrganizer */ = {
+			isa = PBXGroup;
+			children = (
+				BD33CDA720B81833003021E7 /* WarrantyOrganizerViewController.swift */,
+			);
+			path = WarrantyOrganizer;
+			sourceTree = "<group>";
+		};
+		BD37FE121F864EBC00464478 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBBF661F91DCA9003F2214 /* SlideMenuController.swift */,
+				BD37FE131F864ED200464478 /* Constant.swift */,
+				BDF7C2CE1F90CD6F007762DB /* String.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		BD3E2B961FE3A86A00CEEE32 /* ProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E2B981FE3A89700CEEE32 /* MBProgressHUD.h */,
+				BD3E2B971FE3A89700CEEE32 /* MBProgressHUD.m */,
+			);
+			path = ProgressHud;
+			sourceTree = "<group>";
+		};
+		BD3E2B9A1FE3F08900CEEE32 /* EditProfieVW */ = {
+			isa = PBXGroup;
+			children = (
+				BD3E2B9B1FE3F0AE00CEEE32 /* EditProfileView.swift */,
+			);
+			path = EditProfieVW;
+			sourceTree = "<group>";
+		};
+		BD475E541F8356BB00C1B078 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD475E5D1F835C1D00C1B078 /* TitilliumWeb-Black.ttf */,
+				BD475E5E1F835C1D00C1B078 /* TitilliumWeb-Bold.ttf */,
+				BD475E5F1F835C1D00C1B078 /* TitilliumWeb-BoldItalic.ttf */,
+				BD475E601F835C1D00C1B078 /* TitilliumWeb-ExtraLight.ttf */,
+				BD475E611F835C1D00C1B078 /* TitilliumWeb-ExtraLightItalic.ttf */,
+				BD475E621F835C1D00C1B078 /* TitilliumWeb-Italic.ttf */,
+				BD475E631F835C1D00C1B078 /* TitilliumWeb-Light.ttf */,
+				BD475E641F835C1D00C1B078 /* TitilliumWeb-LightItalic.ttf */,
+				BD475E651F835C1D00C1B078 /* TitilliumWeb-Regular.ttf */,
+				BD475E661F835C1D00C1B078 /* TitilliumWeb-SemiBold.ttf */,
+				BD475E671F835C1D00C1B078 /* TitilliumWeb-SemiBoldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		BD4C3C1720BEC58B0053B4C4 /* StepIndicThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C3C1B20BEC5F20053B4C4 /* AnnularLayer.swift */,
+				BD4C3C1A20BEC5F20053B4C4 /* LineLayer.swift */,
+				BD4C3C1820BEC5AE0053B4C4 /* StepIndicatorView.swift */,
+			);
+			path = StepIndicThirdParty;
+			sourceTree = "<group>";
+		};
+		BD4C3C1E20BFC3360053B4C4 /* StatusView */ = {
+			isa = PBXGroup;
+			children = (
+				BD4C3C1F20BFC34E0053B4C4 /* StatusViewController.swift */,
+			);
+			path = StatusView;
+			sourceTree = "<group>";
+		};
+		BD5AC53F1FEE2C1B00F22460 /* HelpSupportList */ = {
+			isa = PBXGroup;
+			children = (
+				BD5AC5401FEE2C3700F22460 /* WTHelpListViewController.swift */,
+			);
+			path = HelpSupportList;
+			sourceTree = "<group>";
+		};
+		BD68A5472098E84A00E0D29B /* SDKFloatingText */ = {
+			isa = PBXGroup;
+			children = (
+				BD68A54A2098E87A00E0D29B /* SkyFloatingLabelTextField.swift */,
+				BD68A5482098E87900E0D29B /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				BD68A5492098E87900E0D29B /* UITextField+fixCaretPosition.swift */,
+			);
+			path = SDKFloatingText;
+			sourceTree = "<group>";
+		};
+		BD7D5213209D7C1F00943FEF /* ProfileUPDateVW */ = {
+			isa = PBXGroup;
+			children = (
+				BD7D5214209D7C3D00943FEF /* UPDateProfileField.swift */,
+			);
+			path = ProfileUPDateVW;
+			sourceTree = "<group>";
+		};
+		BD8012DF20DA561600F79A25 /* TermsPolicy */ = {
+			isa = PBXGroup;
+			children = (
+				BD8012E020DA563200F79A25 /* TermsPolicyViewController.swift */,
+			);
+			path = TermsPolicy;
+			sourceTree = "<group>";
+		};
+		BD9934502024DD85009DA9CA /* WTRenewAMCTicket */ = {
+			isa = PBXGroup;
+			children = (
+				BD9934512024DDB1009DA9CA /* WtRenewTicketController.swift */,
+			);
+			path = WTRenewAMCTicket;
+			sourceTree = "<group>";
+		};
+		BD9934532026F462009DA9CA /* EditDetailsVW */ = {
+			isa = PBXGroup;
+			children = (
+				BD9934542026F4A3009DA9CA /* ApplianceEditDetailsController.swift */,
+			);
+			path = EditDetailsVW;
+			sourceTree = "<group>";
+		};
+		BD9DA367201348B9001CC438 /* WTApplianceCategoryDash */ = {
+			isa = PBXGroup;
+			children = (
+				BD9DA36820134968001CC438 /* WtApplianceCategListViewController.swift */,
+				BD2D61102022E56200956DB8 /* SubApplianceCategListViewController.swift */,
+			);
+			path = WTApplianceCategoryDash;
+			sourceTree = "<group>";
+		};
+		BD9DA36A20135F29001CC438 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				BD9DA36B20135F59001CC438 /* WTApplincCategryCustom.swift */,
+				BD9DA36C20135F59001CC438 /* WTApplincCategryCustom.xib */,
+				BD2D61122022F58100956DB8 /* SubApplincCategryCustem.swift */,
+				BD2D61132022F58100956DB8 /* SubApplincCategryCustem.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		BDABEAFA1FECD73600AB4B66 /* SplashVW */ = {
+			isa = PBXGroup;
+			children = (
+				BDABEAFB1FECD74E00AB4B66 /* SplashViewController.swift */,
+			);
+			path = SplashVW;
+			sourceTree = "<group>";
+		};
+		BDB29C6A1FF7AFBF00CEDA9F /* CommonControl */ = {
+			isa = PBXGroup;
+			children = (
+				BDB29C6B1FF7AFD100CEDA9F /* TTGSnackbar.swift */,
+			);
+			path = CommonControl;
+			sourceTree = "<group>";
+		};
+		BDD2C9E81F7A227C0084F089 = {
+			isa = PBXGroup;
+			children = (
+				BDD2C9F31F7A227C0084F089 /* WarrantyWallet */,
+				BDD2CA0B1F7A227C0084F089 /* WarrantyWalletTests */,
+				BDD2CA161F7A227D0084F089 /* WarrantyWalletUITests */,
+				BDD2C9F21F7A227C0084F089 /* Products */,
+				F3804B655883506F06BFFF8D /* Pods */,
+				2A2EF875D1CA905EA3681C76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDD2C9F21F7A227C0084F089 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2C9F11F7A227C0084F089 /* WarrantyWallet.app */,
+				BDD2CA081F7A227C0084F089 /* WarrantyWalletTests.xctest */,
+				BDD2CA131F7A227C0084F089 /* WarrantyWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD2C9F31F7A227C0084F089 /* WarrantyWallet */ = {
+			isa = PBXGroup;
+			children = (
+				BD18FC3B20CEA28C00A7BCB8 /* WarrantyWallet.entitlements */,
+				BDF39BD31FB1744E00802DD5 /* MMDrawerController */,
+				BDFAF93F1F7B6CA000F9D8F5 /* Resources */,
+				BDFAF93E1F7B6C8200F9D8F5 /* Support */,
+				BDFAF93D1F7B6BFE00F9D8F5 /* Controller */,
+				BDFAF93C1F7B6BCB00F9D8F5 /* Main */,
+				BDD2C9FE1F7A227C0084F089 /* Assets.xcassets */,
+				BDD2CA031F7A227C0084F089 /* Info.plist */,
+				BDD2C9FB1F7A227C0084F089 /* WarrantyWallet.xcdatamodeld */,
+				BDF52FA91FB090320097AC0D /* Warranty-Bridging-Header.h */,
+			);
+			path = WarrantyWallet;
+			sourceTree = "<group>";
+		};
+		BDD2CA0B1F7A227C0084F089 /* WarrantyWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2CA0C1F7A227C0084F089 /* WarrantyWalletTests.swift */,
+				BDD2CA0E1F7A227C0084F089 /* Info.plist */,
+			);
+			path = WarrantyWalletTests;
+			sourceTree = "<group>";
+		};
+		BDD2CA161F7A227D0084F089 /* WarrantyWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2CA171F7A227D0084F089 /* WarrantyWalletUITests.swift */,
+				BDD2CA191F7A227D0084F089 /* Info.plist */,
+			);
+			path = WarrantyWalletUITests;
+			sourceTree = "<group>";
+		};
+		BDF39BD31FB1744E00802DD5 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				BDF39BD41FB1744E00802DD5 /* MMDrawerBarButtonItem.h */,
+				BDF39BD51FB1744E00802DD5 /* MMDrawerBarButtonItem.m */,
+				BDF39BD61FB1744E00802DD5 /* MMDrawerController+Subclass.h */,
+				BDF39BD71FB1744E00802DD5 /* MMDrawerController.h */,
+				BDF39BD81FB1744E00802DD5 /* MMDrawerController.m */,
+				BDF39BD91FB1744E00802DD5 /* MMDrawerVisualState.h */,
+				BDF39BDA1FB1744E00802DD5 /* MMDrawerVisualState.m */,
+				BDF39BDB1FB1744E00802DD5 /* UIViewController+MMDrawerController.h */,
+				BDF39BDC1FB1744E00802DD5 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		BDF7167F20319FA700F9541E /* ExpiringViewList */ = {
+			isa = PBXGroup;
+			children = (
+				BDF7168020319FC900F9541E /* ExpiringVWController.swift */,
+			);
+			path = ExpiringViewList;
+			sourceTree = "<group>";
+		};
+		BDF716822032BE7D00F9541E /* AMCServiceAggrement */ = {
+			isa = PBXGroup;
+			children = (
+				BDF716832032BEB600F9541E /* AMCAggrementController.swift */,
+			);
+			path = AMCServiceAggrement;
+			sourceTree = "<group>";
+		};
+		BDF716852035916C00F9541E /* RegAMCDetailsVW */ = {
+			isa = PBXGroup;
+			children = (
+				BDF716862035919400F9541E /* RegAMCDetailsView.swift */,
+			);
+			path = RegAMCDetailsVW;
+			sourceTree = "<group>";
+		};
+		BDF71688203AB72E00F9541E /* AMCEditPageVW */ = {
+			isa = PBXGroup;
+			children = (
+				BDF71689203AB77800F9541E /* AMCEditFieldView.swift */,
+			);
+			path = AMCEditPageVW;
+			sourceTree = "<group>";
+		};
+		BDF80D8B1FA1A7D1006CBC2A /* MRCountryPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BDF80D8C1FA1A809006CBC2A /* Classes */,
+			);
+			path = MRCountryPicker;
+			sourceTree = "<group>";
+		};
+		BDF80D8C1FA1A809006CBC2A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BDF80D8D1FA1A809006CBC2A /* .gitkeep */,
+				BDF80D8E1FA1A809006CBC2A /* SwiftCountryPicker.swift */,
+				BDF80D8F1FA1A809006CBC2A /* SwiftCountryView.swift */,
+				BDF80D901FA1A809006CBC2A /* SwiftCountryView.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BDF9DF671FD1729300245A11 /* WTRegisterdInvoices */ = {
+			isa = PBXGroup;
+			children = (
+				BDF9DF681FD172B600245A11 /* RegisteredInvoicesViewController.swift */,
+			);
+			path = WTRegisterdInvoices;
+			sourceTree = "<group>";
+		};
+		BDFAF93C1F7B6BCB00F9D8F5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2C9F41F7A227C0084F089 /* AppDelegate.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		BDFAF93D1F7B6BFE00F9D8F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BD8012DF20DA561600F79A25 /* TermsPolicy */,
+				BD4C3C1E20BFC3360053B4C4 /* StatusView */,
+				BD4C3C1720BEC58B0053B4C4 /* StepIndicThirdParty */,
+				BD33CDA620B81819003021E7 /* WarrantyOrganizer */,
+				BD33CDA320B6CA9C003021E7 /* WalkThroughScreen */,
+				BD33CDA020B6BCD3003021E7 /* ThanksScreen */,
+				BD7D5213209D7C1F00943FEF /* ProfileUPDateVW */,
+				BDF71688203AB72E00F9541E /* AMCEditPageVW */,
+				BDF716852035916C00F9541E /* RegAMCDetailsVW */,
+				BDF716822032BE7D00F9541E /* AMCServiceAggrement */,
+				BDF7167F20319FA700F9541E /* ExpiringViewList */,
+				BD0344DF202D951E002EE3CB /* VWExpiredLIst */,
+				BD9934532026F462009DA9CA /* EditDetailsVW */,
+				BD9934502024DD85009DA9CA /* WTRenewAMCTicket */,
+				BD9DA367201348B9001CC438 /* WTApplianceCategoryDash */,
+				BD2961A3200E2ED0002E783E /* WTListDocumentFile */,
+				BD29619C2004C174002E783E /* WTRaiseVW */,
+				BD5AC53F1FEE2C1B00F22460 /* HelpSupportList */,
+				BDABEAFA1FECD73600AB4B66 /* SplashVW */,
+				BD3E2B9A1FE3F08900CEEE32 /* EditProfieVW */,
+				BDF9DF671FD1729300245A11 /* WTRegisterdInvoices */,
+				BD2B63791FC6A2DA00AFEAE3 /* WTSettingVW */,
+				BD0035961FC582F500DC33EA /* NotificationWT */,
+				BDD2C9F61F7A227C0084F089 /* ViewController.swift */,
+				BD31C1821F84C3BC0067E3EA /* SignUpPage.swift */,
+				BD31C1841F8508DB0067E3EA /* VerifyPhoneNomViewController.swift */,
+				BD31C1861F850B580067E3EA /* OTPViewController.swift */,
+				BD37FE0E1F86076800464478 /* AboutViewController.swift */,
+				BD37FE101F8616DC00464478 /* HelpSupportViewController.swift */,
+				BDF81E3F1F8DF56300706AF3 /* GroupSelectViewController.swift */,
+				BDF2DB611F8F98F7002E95EA /* EditeGroupViewController.swift */,
+				BDF7C2C21F909852007762DB /* RegisteredAppliancesViewController.swift */,
+				BDF7C2CC1F90B421007762DB /* AppliancesViewController.swift */,
+				BD0DC5F21F9F49BE004EE2BA /* RegisterDeviceViewController.swift */,
+				BD296EE91FA0B1AC00361D0B /* ModelEnterViewController.swift */,
+				BD296EEB1FA0BE1600361D0B /* LocationTagViewController.swift */,
+				BD296EED1FA0C41E00361D0B /* ScanInvoiceViewController.swift */,
+				BDFBB7651FA3175F006249D5 /* InvoiceViewController.swift */,
+				BDFBF9061FAC914700C06E03 /* DashBrdViewController.swift */,
+				BDF52FA71FB0795A0097AC0D /* ApplianceEditDetailsViewController.swift */,
+				BDF39BE11FB17E3500802DD5 /* WTMenuViewController.swift */,
+				BDF6AFBE1FB3244900F47383 /* WTRegisteredAMCViewController.swift */,
+				BDFA2C1C1FB42D5600E3700C /* WTExtndWarntyViewController.swift */,
+				BDFA2C1E1FB45FB400E3700C /* WTRequestStatusViewController.swift */,
+				BDFD72711FBD9C9300AC17D3 /* USEOTPViewController.swift */,
+				BDFD72731FBE9FFC00AC17D3 /* navViewController.swift */,
+				BDFD72751FBEF3AD00AC17D3 /* WTCheckStatusViewController.swift */,
+				BD0B0DAE1FC2D3BD007BD05D /* WTServiceLogViewController.swift */,
+				BD2B63BE1FCD2B7900AFEAE3 /* WTWebViewController.swift */,
+				BDB29C681FF22CD600CEDA9F /* WTUploadFileViewController.swift */,
+				BD68A54120970FE700E0D29B /* WTVerifcnPandingVWViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BDFAF93E1F7B6C8200F9D8F5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BD0344E2202D95C3002EE3CB /* ExpiredListCell */,
+				BD9DA36A20135F29001CC438 /* CollectionCell */,
+				BD3E2B961FE3A86A00CEEE32 /* ProgressHud */,
+				BDFD72771FC049E700AC17D3 /* SliderShow */,
+				BDFBBF681F91EF9E003F2214 /* CustomViews */,
+				BDF7C2C81F90AF97007762DB /* AppliancesCustomTableViewCell.swift */,
+				BDF7C2C91F90AF97007762DB /* AppliancesCustomTableViewCell.xib */,
+				BDFBBF6F1F94AAA2003F2214 /* SliderBaseViewViewController.swift */,
+				BDFBF9021FAC89D900C06E03 /* DashboardCustomCell.swift */,
+				BDFBF9031FAC89D900C06E03 /* DashboardCustomCell.xib */,
+				BD007AD61FAD923000ED5C11 /* ExtndWarrntCell.swift */,
+				BD007AD71FAD923000ED5C11 /* ExtndWarrntCell.xib */,
+				BDF6AFC01FB324EC00F47383 /* CstmRegsAmcCell.swift */,
+				BDF6AFC11FB324EC00F47383 /* CstmRegsAmcCell.xib */,
+				BDFA2C201FB4674600E3700C /* CustmRequestCell.swift */,
+				BDFA2C211FB4674600E3700C /* CustmRequestCell.xib */,
+				BD2B63BA1FCB407300AFEAE3 /* CusteomMenuCell.swift */,
+				BD2B63BB1FCB407300AFEAE3 /* CusteomMenuCell.xib */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		BDFAF93F1F7B6CA000F9D8F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD68A5472098E84A00E0D29B /* SDKFloatingText */,
+				BD2D610C201912AF00956DB8 /* SlideShow */,
+				BD2961A6200FCA76002E783E /* GooglePlist */,
+				BDB29C6A1FF7AFBF00CEDA9F /* CommonControl */,
+				BDF80D8B1FA1A7D1006CBC2A /* MRCountryPicker */,
+				BD37FE121F864EBC00464478 /* Constants */,
+				BD475E541F8356BB00C1B078 /* Fonts */,
+				BDFAF9401F7B6CC000F9D8F5 /* Storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BDFAF9401F7B6CC000F9D8F5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				BDD2C9F81F7A227C0084F089 /* Main.storyboard */,
+				BDD2CA001F7A227C0084F089 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		BDFBBF681F91EF9E003F2214 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				BDFBBF711F94AF55003F2214 /* TopViewController.swift */,
+				BDFBBF731F94DA05003F2214 /* TopViewController.xib */,
+				BDA6B4841FB57BDB00542D9E /* BottomViewViewController.swift */,
+				BDA6B4851FB57BDB00542D9E /* BottomViewViewController.xib */,
+				BD0B0DB01FC2D5BE007BD05D /* CustemServiceCell.swift */,
+				BD0B0DB11FC2D5BE007BD05D /* CustemServiceCell.xib */,
+				BD2B63751FC6A13900AFEAE3 /* custemNotificationCell.swift */,
+				BD2B63761FC6A13900AFEAE3 /* custemNotificationCell.xib */,
+				BDF9DF6A1FD29BCB00245A11 /* RegistrdInvoiceCell.swift */,
+				BDF9DF6B1FD29BCB00245A11 /* RegistrdInvoiceCell.xib */,
+				BD5AC5421FEE2E9100F22460 /* CustomFeedbackList.swift */,
+				BD5AC5431FEE2E9100F22460 /* CustomFeedbackList.xib */,
+				BDEC666E1FFDF75100D252B7 /* collectionVWCell.swift */,
+				BDEC66741FFF877B00D252B7 /* CstmEditDaySlidrCell.swift */,
+				BDEC66751FFF877B00D252B7 /* CstmEditDaySlidrCell.xib */,
+				BD29619F200DC3F9002E783E /* CustemDocumentCell.swift */,
+				BD2961A0200DC3F9002E783E /* CustemDocumentCell.xib */,
+				BD68A53F2091E1F100E0D29B /* CustomSlider.swift */,
+				BD68A54320971DF800E0D29B /* CustomCellVerificationTableViewCell.swift */,
+				BD68A54420971DF800E0D29B /* CustomCellVerificationTableViewCell.xib */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		BDFD72771FC049E700AC17D3 /* SliderShow */ = {
+			isa = PBXGroup;
+			children = (
+				BDFD72781FC04A1100AC17D3 /* KIImagePager.h */,
+				BDFD72791FC04A1100AC17D3 /* KIImagePager.m */,
+			);
+			path = SliderShow;
+			sourceTree = "<group>";
+		};
+		F3804B655883506F06BFFF8D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				783B97C9C19066E6E675B04F /* Pods-WarrantyWallet.debug.xcconfig */,
+				EA9CD9C6165D17399F5665DF /* Pods-WarrantyWallet.release.xcconfig */,
+				C135B182D8B73B414DF31E9B /* Pods-WarrantyWalletTests.debug.xcconfig */,
+				06D1C625CE78972970D739B6 /* Pods-WarrantyWalletTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDD2C9F01F7A227C0084F089 /* WarrantyWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD2CA1C1F7A227D0084F089 /* Build configuration list for PBXNativeTarget "WarrantyWallet" */;
+			buildPhases = (
+				B83BCDDA158223D3DE4278E3 /* [CP] Check Pods Manifest.lock */,
+				BDD2C9ED1F7A227C0084F089 /* Sources */,
+				BDD2C9EE1F7A227C0084F089 /* Frameworks */,
+				BDD2C9EF1F7A227C0084F089 /* Resources */,
+				9422E623622773F308628CF3 /* [CP] Embed Pods Frameworks */,
+				D212144794422F9E516FE19D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarrantyWallet;
+			productName = WarrantyWallet;
+			productReference = BDD2C9F11F7A227C0084F089 /* WarrantyWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDD2CA071F7A227C0084F089 /* WarrantyWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD2CA1F1F7A227D0084F089 /* Build configuration list for PBXNativeTarget "WarrantyWalletTests" */;
+			buildPhases = (
+				4B1C0F0C34B6FCECA1C16A29 /* [CP] Check Pods Manifest.lock */,
+				BDD2CA041F7A227C0084F089 /* Sources */,
+				BDD2CA051F7A227C0084F089 /* Frameworks */,
+				BDD2CA061F7A227C0084F089 /* Resources */,
+				DC896118487457CFF376AB6C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD2CA0A1F7A227C0084F089 /* PBXTargetDependency */,
+			);
+			name = WarrantyWalletTests;
+			productName = WarrantyWalletTests;
+			productReference = BDD2CA081F7A227C0084F089 /* WarrantyWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDD2CA121F7A227C0084F089 /* WarrantyWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD2CA221F7A227D0084F089 /* Build configuration list for PBXNativeTarget "WarrantyWalletUITests" */;
+			buildPhases = (
+				BDD2CA0F1F7A227C0084F089 /* Sources */,
+				BDD2CA101F7A227C0084F089 /* Frameworks */,
+				BDD2CA111F7A227C0084F089 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD2CA151F7A227C0084F089 /* PBXTargetDependency */,
+			);
+			name = WarrantyWalletUITests;
+			productName = WarrantyWalletUITests;
+			productReference = BDD2CA131F7A227C0084F089 /* WarrantyWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDD2C9E91F7A227C0084F089 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "ONBV-BHUPI";
+				TargetAttributes = {
+					BDD2C9F01F7A227C0084F089 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KP4ERKGZ8S;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					BDD2CA071F7A227C0084F089 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDD2C9F01F7A227C0084F089;
+					};
+					BDD2CA121F7A227C0084F089 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDD2C9F01F7A227C0084F089;
+					};
+				};
+			};
+			buildConfigurationList = BDD2C9EC1F7A227C0084F089 /* Build configuration list for PBXProject "WarrantyWallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDD2C9E81F7A227C0084F089;
+			productRefGroup = BDD2C9F21F7A227C0084F089 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD2C9F01F7A227C0084F089 /* WarrantyWallet */,
+				BDD2CA071F7A227C0084F089 /* WarrantyWalletTests */,
+				BDD2CA121F7A227C0084F089 /* WarrantyWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDD2C9EF1F7A227C0084F089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0B0DB31FC2D5BE007BD05D /* CustemServiceCell.xib in Resources */,
+				BDFBF9051FAC89D900C06E03 /* DashboardCustomCell.xib in Resources */,
+				BDA6B4871FB57BDB00542D9E /* BottomViewViewController.xib in Resources */,
+				BD007AD91FAD923000ED5C11 /* ExtndWarrntCell.xib in Resources */,
+				BD0344E6202D95E5002EE3CB /* ExpiredCustomCell.xib in Resources */,
+				BD475E721F835C1D00C1B078 /* TitilliumWeb-SemiBoldItalic.ttf in Resources */,
+				BD475E691F835C1D00C1B078 /* TitilliumWeb-Bold.ttf in Resources */,
+				BDFA2C231FB4674600E3700C /* CustmRequestCell.xib in Resources */,
+				BD9DA36E20135F59001CC438 /* WTApplincCategryCustom.xib in Resources */,
+				BDD2CA021F7A227C0084F089 /* LaunchScreen.storyboard in Resources */,
+				BDD2C9FF1F7A227C0084F089 /* Assets.xcassets in Resources */,
+				BD2961A2200DC3F9002E783E /* CustemDocumentCell.xib in Resources */,
+				BDF6AFC31FB324EC00F47383 /* CstmRegsAmcCell.xib in Resources */,
+				BD475E6D1F835C1D00C1B078 /* TitilliumWeb-Italic.ttf in Resources */,
+				BDD2C9FA1F7A227C0084F089 /* Main.storyboard in Resources */,
+				BD475E6F1F835C1D00C1B078 /* TitilliumWeb-LightItalic.ttf in Resources */,
+				BD475E701F835C1D00C1B078 /* TitilliumWeb-Regular.ttf in Resources */,
+				BD2D61152022F58100956DB8 /* SubApplincCategryCustem.xib in Resources */,
+				BD2961AA20106214002E783E /* GoogleService-Info.plist in Resources */,
+				BDFBBF741F94DA05003F2214 /* TopViewController.xib in Resources */,
+				BD475E6A1F835C1D00C1B078 /* TitilliumWeb-BoldItalic.ttf in Resources */,
+				BD475E6C1F835C1D00C1B078 /* TitilliumWeb-ExtraLightItalic.ttf in Resources */,
+				BD2B63781FC6A13900AFEAE3 /* custemNotificationCell.xib in Resources */,
+				BDF9DF6D1FD29BCB00245A11 /* RegistrdInvoiceCell.xib in Resources */,
+				BDF80D911FA1A809006CBC2A /* .gitkeep in Resources */,
+				BD475E681F835C1D00C1B078 /* TitilliumWeb-Black.ttf in Resources */,
+				BDF80D941FA1A809006CBC2A /* SwiftCountryView.xib in Resources */,
+				BD475E6E1F835C1D00C1B078 /* TitilliumWeb-Light.ttf in Resources */,
+				BD475E711F835C1D00C1B078 /* TitilliumWeb-SemiBold.ttf in Resources */,
+				BDEC66771FFF877B00D252B7 /* CstmEditDaySlidrCell.xib in Resources */,
+				BD2B63BD1FCB407300AFEAE3 /* CusteomMenuCell.xib in Resources */,
+				BD475E6B1F835C1D00C1B078 /* TitilliumWeb-ExtraLight.ttf in Resources */,
+				BDF7C2CB1F90AF97007762DB /* AppliancesCustomTableViewCell.xib in Resources */,
+				BD5AC5451FEE2E9100F22460 /* CustomFeedbackList.xib in Resources */,
+				BD68A54620971DF800E0D29B /* CustomCellVerificationTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD2CA061F7A227C0084F089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD2CA111F7A227C0084F089 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B1C0F0C34B6FCECA1C16A29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WarrantyWalletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9422E623622773F308628CF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WarrantyWallet/Pods-WarrantyWallet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MRCountryPicker/MRCountryPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRCountryPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarrantyWallet/Pods-WarrantyWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B83BCDDA158223D3DE4278E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WarrantyWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D212144794422F9E516FE19D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WarrantyWallet/Pods-WarrantyWallet-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarrantyWallet/Pods-WarrantyWallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC896118487457CFF376AB6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WarrantyWalletTests/Pods-WarrantyWalletTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MRCountryPicker/MRCountryPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRCountryPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WarrantyWalletTests/Pods-WarrantyWalletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD2C9ED1F7A227C0084F089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD33CDA520B6CAAE003021E7 /* WalkThroughViewController.swift in Sources */,
+				BDA6B4861FB57BDB00542D9E /* BottomViewViewController.swift in Sources */,
+				BD68A54C2098E87A00E0D29B /* UITextField+fixCaretPosition.swift in Sources */,
+				BD2D61142022F58100956DB8 /* SubApplincCategryCustem.swift in Sources */,
+				BDEC666F1FFDF75100D252B7 /* collectionVWCell.swift in Sources */,
+				BD2B63BC1FCB407300AFEAE3 /* CusteomMenuCell.swift in Sources */,
+				BD68A54520971DF800E0D29B /* CustomCellVerificationTableViewCell.swift in Sources */,
+				BD0B0DAF1FC2D3BD007BD05D /* WTServiceLogViewController.swift in Sources */,
+				BDF39BE01FB1744E00802DD5 /* UIViewController+MMDrawerController.m in Sources */,
+				BD0344E5202D95E5002EE3CB /* ExpiredCustomCell.swift in Sources */,
+				BDF7168A203AB77800F9541E /* AMCEditFieldView.swift in Sources */,
+				BD0344E1202D9572002EE3CB /* WtExpiredListController.swift in Sources */,
+				BD33CDA220B6BCFB003021E7 /* ThankViewController.swift in Sources */,
+				BD4C3C1D20BEC5F20053B4C4 /* AnnularLayer.swift in Sources */,
+				BDF7C2CD1F90B421007762DB /* AppliancesViewController.swift in Sources */,
+				BD0035981FC5831100DC33EA /* WTNotificationViewController.swift in Sources */,
+				BD5AC5411FEE2C3700F22460 /* WTHelpListViewController.swift in Sources */,
+				BD31C1871F850B580067E3EA /* OTPViewController.swift in Sources */,
+				BDD2C9FD1F7A227C0084F089 /* WarrantyWallet.xcdatamodeld in Sources */,
+				BDFBF9041FAC89D900C06E03 /* DashboardCustomCell.swift in Sources */,
+				BDF39BDF1FB1744E00802DD5 /* MMDrawerVisualState.m in Sources */,
+				BD4C3C1920BEC5AF0053B4C4 /* StepIndicatorView.swift in Sources */,
+				BD68A5402091E1F300E0D29B /* CustomSlider.swift in Sources */,
+				BDF7C2CA1F90AF97007762DB /* AppliancesCustomTableViewCell.swift in Sources */,
+				BD37FE141F864ED200464478 /* Constant.swift in Sources */,
+				BDFD72761FBEF3AD00AC17D3 /* WTCheckStatusViewController.swift in Sources */,
+				BD4C3C1C20BEC5F20053B4C4 /* LineLayer.swift in Sources */,
+				BD3E2B991FE3A89700CEEE32 /* MBProgressHUD.m in Sources */,
+				BDEC66761FFF877B00D252B7 /* CstmEditDaySlidrCell.swift in Sources */,
+				BDD2C9F71F7A227C0084F089 /* ViewController.swift in Sources */,
+				BDF39BDD1FB1744E00802DD5 /* MMDrawerBarButtonItem.m in Sources */,
+				BD2B637B1FC6A2F400AFEAE3 /* WTSettingViewController.swift in Sources */,
+				BDF80D921FA1A809006CBC2A /* SwiftCountryPicker.swift in Sources */,
+				BD296EEA1FA0B1AC00361D0B /* ModelEnterViewController.swift in Sources */,
+				BD29619E2004C19D002E783E /* WTRaiseVWController.swift in Sources */,
+				BDFBB7661FA3175F006249D5 /* InvoiceViewController.swift in Sources */,
+				BD0DC5F31F9F49BE004EE2BA /* RegisterDeviceViewController.swift in Sources */,
+				BDF7C2C31F909852007762DB /* RegisteredAppliancesViewController.swift in Sources */,
+				BDF81E401F8DF56300706AF3 /* GroupSelectViewController.swift in Sources */,
+				BDF716842032BEB600F9541E /* AMCAggrementController.swift in Sources */,
+				BDF80D931FA1A809006CBC2A /* SwiftCountryView.swift in Sources */,
+				BDF6AFBF1FB3244900F47383 /* WTRegisteredAMCViewController.swift in Sources */,
+				BD3E2B9C1FE3F0AE00CEEE32 /* EditProfileView.swift in Sources */,
+				BD33CDA820B81833003021E7 /* WarrantyOrganizerViewController.swift in Sources */,
+				BD68A54B2098E87A00E0D29B /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				BDFA2C1D1FB42D5600E3700C /* WTExtndWarntyViewController.swift in Sources */,
+				BD2D61112022E56300956DB8 /* SubApplianceCategListViewController.swift in Sources */,
+				BD37FE0F1F86076800464478 /* AboutViewController.swift in Sources */,
+				BD007AD81FAD923000ED5C11 /* ExtndWarrntCell.swift in Sources */,
+				BD0B0DB21FC2D5BE007BD05D /* CustemServiceCell.swift in Sources */,
+				BD296EEE1FA0C41E00361D0B /* ScanInvoiceViewController.swift in Sources */,
+				BD2961A1200DC3F9002E783E /* CustemDocumentCell.swift in Sources */,
+				BDF6AFC21FB324EC00F47383 /* CstmRegsAmcCell.swift in Sources */,
+				BDF9DF6C1FD29BCB00245A11 /* RegistrdInvoiceCell.swift in Sources */,
+				BD9934522024DDB1009DA9CA /* WtRenewTicketController.swift in Sources */,
+				BDF39BDE1FB1744E00802DD5 /* MMDrawerController.m in Sources */,
+				BD2961A5200E2EF2002E783E /* WTListDocumentFile.swift in Sources */,
+				BDFA2C221FB4674600E3700C /* CustmRequestCell.swift in Sources */,
+				BD2D610F201912D800956DB8 /* iCarousel.m in Sources */,
+				BD2B63BF1FCD2B7900AFEAE3 /* WTWebViewController.swift in Sources */,
+				BD68A54D2098E87A00E0D29B /* SkyFloatingLabelTextField.swift in Sources */,
+				BDB29C691FF22CD600CEDA9F /* WTUploadFileViewController.swift in Sources */,
+				BD31C1831F84C3BC0067E3EA /* SignUpPage.swift in Sources */,
+				BDF9DF691FD172B600245A11 /* RegisteredInvoicesViewController.swift in Sources */,
+				BD4C3C2020BFC34E0053B4C4 /* StatusViewController.swift in Sources */,
+				BD68A54220970FE800E0D29B /* WTVerifcnPandingVWViewController.swift in Sources */,
+				BDB29C6C1FF7AFD300CEDA9F /* TTGSnackbar.swift in Sources */,
+				BD2B63771FC6A13900AFEAE3 /* custemNotificationCell.swift in Sources */,
+				BD31C1851F8508DB0067E3EA /* VerifyPhoneNomViewController.swift in Sources */,
+				BD9934552026F4A3009DA9CA /* ApplianceEditDetailsController.swift in Sources */,
+				BDF2DB621F8F98F7002E95EA /* EditeGroupViewController.swift in Sources */,
+				BDF7C2CF1F90CD6F007762DB /* String.swift in Sources */,
+				BD7D5215209D7C3D00943FEF /* UPDateProfileField.swift in Sources */,
+				BDFD727A1FC04A1100AC17D3 /* KIImagePager.m in Sources */,
+				BDF52FA81FB0795A0097AC0D /* ApplianceEditDetailsViewController.swift in Sources */,
+				BDFA2C1F1FB45FB400E3700C /* WTRequestStatusViewController.swift in Sources */,
+				BDFD72741FBE9FFC00AC17D3 /* navViewController.swift in Sources */,
+				BDF7168120319FC900F9541E /* ExpiringVWController.swift in Sources */,
+				BD9DA36D20135F59001CC438 /* WTApplincCategryCustom.swift in Sources */,
+				BD8012E120DA563200F79A25 /* TermsPolicyViewController.swift in Sources */,
+				BDF716872035919600F9541E /* RegAMCDetailsView.swift in Sources */,
+				BD5AC5441FEE2E9100F22460 /* CustomFeedbackList.swift in Sources */,
+				BDD2C9F51F7A227C0084F089 /* AppDelegate.swift in Sources */,
+				BDABEAFC1FECD74E00AB4B66 /* SplashViewController.swift in Sources */,
+				BDFBBF701F94AAA2003F2214 /* SliderBaseViewViewController.swift in Sources */,
+				BDFBBF671F91DCA9003F2214 /* SlideMenuController.swift in Sources */,
+				BDFBBF721F94AF55003F2214 /* TopViewController.swift in Sources */,
+				BDF39BE21FB17E3500802DD5 /* WTMenuViewController.swift in Sources */,
+				BDFD72721FBD9C9300AC17D3 /* USEOTPViewController.swift in Sources */,
+				BD37FE111F8616DC00464478 /* HelpSupportViewController.swift in Sources */,
+				BD296EEC1FA0BE1600361D0B /* LocationTagViewController.swift in Sources */,
+				BD9DA36920134968001CC438 /* WtApplianceCategListViewController.swift in Sources */,
+				BDFBF9071FAC914700C06E03 /* DashBrdViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD2CA041F7A227C0084F089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD2CA0D1F7A227C0084F089 /* WarrantyWalletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD2CA0F1F7A227C0084F089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD2CA181F7A227D0084F089 /* WarrantyWalletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDD2CA0A1F7A227C0084F089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD2C9F01F7A227C0084F089 /* WarrantyWallet */;
+			targetProxy = BDD2CA091F7A227C0084F089 /* PBXContainerItemProxy */;
+		};
+		BDD2CA151F7A227C0084F089 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD2C9F01F7A227C0084F089 /* WarrantyWallet */;
+			targetProxy = BDD2CA141F7A227C0084F089 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDD2C9F81F7A227C0084F089 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD2C9F91F7A227C0084F089 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDD2CA001F7A227C0084F089 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD2CA011F7A227C0084F089 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDD2CA1A1F7A227D0084F089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "1a6f95f1-8dea-4c59-b20f-16378ded8983";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDD2CA1B1F7A227D0084F089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "1a6f95f1-8dea-4c59-b20f-16378ded8983";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD2CA1D1F7A227D0084F089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783B97C9C19066E6E675B04F /* Pods-WarrantyWallet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WarrantyWallet/WarrantyWallet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WarrantyWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onbv.warrantywallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WarrantyWallet/Warranty-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		BDD2CA1E1F7A227D0084F089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9CD9C6165D17399F5665DF /* Pods-WarrantyWallet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = WarrantyWallet/WarrantyWallet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WarrantyWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onbv.warrantywallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "WarrantyWallet/Warranty-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		BDD2CA201F7A227D0084F089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C135B182D8B73B414DF31E9B /* Pods-WarrantyWalletTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WarrantyWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ONBV.WarrantyWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarrantyWallet.app/WarrantyWallet";
+			};
+			name = Debug;
+		};
+		BDD2CA211F7A227D0084F089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06D1C625CE78972970D739B6 /* Pods-WarrantyWalletTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WarrantyWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ONBV.WarrantyWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WarrantyWallet.app/WarrantyWallet";
+			};
+			name = Release;
+		};
+		BDD2CA231F7A227D0084F089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WarrantyWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ONBV.WarrantyWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WarrantyWallet;
+			};
+			name = Debug;
+		};
+		BDD2CA241F7A227D0084F089 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = WarrantyWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ONBV.WarrantyWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WarrantyWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDD2C9EC1F7A227C0084F089 /* Build configuration list for PBXProject "WarrantyWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD2CA1A1F7A227D0084F089 /* Debug */,
+				BDD2CA1B1F7A227D0084F089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD2CA1C1F7A227D0084F089 /* Build configuration list for PBXNativeTarget "WarrantyWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD2CA1D1F7A227D0084F089 /* Debug */,
+				BDD2CA1E1F7A227D0084F089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD2CA1F1F7A227D0084F089 /* Build configuration list for PBXNativeTarget "WarrantyWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD2CA201F7A227D0084F089 /* Debug */,
+				BDD2CA211F7A227D0084F089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD2CA221F7A227D0084F089 /* Build configuration list for PBXNativeTarget "WarrantyWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD2CA231F7A227D0084F089 /* Debug */,
+				BDD2CA241F7A227D0084F089 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDD2C9FB1F7A227C0084F089 /* WarrantyWallet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDD2C9FC1F7A227C0084F089 /* WarrantyWallet.xcdatamodel */,
+			);
+			currentVersion = BDD2C9FC1F7A227C0084F089 /* WarrantyWallet.xcdatamodel */;
+			path = WarrantyWallet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDD2C9E91F7A227C0084F089 /* Project object */;
+}
